@@ -1,0 +1,39 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.posts h1 {
+    background-color: rgba(197, 197, 197, 0.69);
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    margin: 1.5rem 1rem;
+    padding: 1rem;
+    width: 400px;
+    background-color: rgba(197, 197, 197, 0.69);
+    min-height: 300px;
+}
+
+.post-title {
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 550px) {
+    .posts-container {
+        flex-direction: column;
+    }
+
+    .post {
+        margin: 1rem 0;
+        width: 90%;
+    }
+}

@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 3rem 0;
+}
+
+.footer-container a{
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 440px) {
+    .footer-container a {
+        margin: 0 0.5rem;
+    }
+}
